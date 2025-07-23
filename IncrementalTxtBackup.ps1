@@ -1,7 +1,7 @@
 # Define source and destination folders
-$sourceFolder = "C:\Users\tomer.glik\Desktop"  # Change to your source folder path
-$destinationFolder = "C:\Users\tomer.glik\Desktop\S"  # Change to your backup folder path
-$timestampFile = "C:\Users\tomer.glik\Desktop\Last_timestamps.json"  # File to store previous timestamps
+$sourceFolder = "C:\Source\Path"  # Change to your source folder path
+$destinationFolder = "C:\Dest\Path"  # Change to your backup folder path
+$timestampFile = "C:\Previous Timestamp\Path"  # File to store previous timestamps
 
 # Ensure the destination folder exists
 if (!(Test-Path -Path $destinationFolder)) {
